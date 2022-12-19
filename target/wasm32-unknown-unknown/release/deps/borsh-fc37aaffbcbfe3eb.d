@@ -1,0 +1,12 @@
+/Users/oleh/code/staking-pool/target/wasm32-unknown-unknown/release/deps/borsh-fc37aaffbcbfe3eb.rmeta: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/mod.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/hint.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema_helpers.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/ser/mod.rs
+
+/Users/oleh/code/staking-pool/target/wasm32-unknown-unknown/release/deps/libborsh-fc37aaffbcbfe3eb.rlib: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/mod.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/hint.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema_helpers.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/ser/mod.rs
+
+/Users/oleh/code/staking-pool/target/wasm32-unknown-unknown/release/deps/borsh-fc37aaffbcbfe3eb.d: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/mod.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/hint.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema_helpers.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/ser/mod.rs
+
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/lib.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/mod.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/de/hint.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/schema_helpers.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.7.1/src/ser/mod.rs:

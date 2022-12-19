@@ -1,0 +1,10 @@
+/Users/oleh/code/staking-pool/target/release/deps/borsh_schema_derive_internal-86e0a50bbaf428ba.rmeta: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/helpers.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/enum_schema.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/struct_schema.rs
+
+/Users/oleh/code/staking-pool/target/release/deps/libborsh_schema_derive_internal-86e0a50bbaf428ba.rlib: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/helpers.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/enum_schema.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/struct_schema.rs
+
+/Users/oleh/code/staking-pool/target/release/deps/borsh_schema_derive_internal-86e0a50bbaf428ba.d: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/helpers.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/enum_schema.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/struct_schema.rs
+
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/lib.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/helpers.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/enum_schema.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-schema-derive-internal-0.7.1/src/struct_schema.rs:

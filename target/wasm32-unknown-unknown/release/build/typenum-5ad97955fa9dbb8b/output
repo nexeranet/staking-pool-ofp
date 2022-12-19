@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/oleh/code/staking-pool/target/wasm32-unknown-unknown/release/build/typenum-5ad97955fa9dbb8b/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/oleh/code/staking-pool/target/wasm32-unknown-unknown/release/build/typenum-5ad97955fa9dbb8b/out/op.rs
