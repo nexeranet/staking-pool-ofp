@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/oleh/code/core-contracts/staking-pool/target/debug/build/typenum-afdb567914c2efff/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/oleh/code/core-contracts/staking-pool/target/debug/build/typenum-afdb567914c2efff/out/op.rs

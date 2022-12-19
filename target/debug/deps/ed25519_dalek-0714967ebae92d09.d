@@ -1,0 +1,11 @@
+/Users/oleh/code/core-contracts/staking-pool/target/debug/deps/ed25519_dalek-0714967ebae92d09.rmeta: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/constants.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/ed25519.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/errors.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/public.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/secret.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/signature.rs
+
+/Users/oleh/code/core-contracts/staking-pool/target/debug/deps/ed25519_dalek-0714967ebae92d09.d: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/constants.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/ed25519.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/errors.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/public.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/secret.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/signature.rs
+
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/lib.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/constants.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/ed25519.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/errors.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/public.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/secret.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/ed25519-dalek-1.0.0-pre.3/src/signature.rs:
