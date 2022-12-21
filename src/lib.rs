@@ -5,8 +5,8 @@ use near_sdk::collections::UnorderedMap;
 use near_sdk::json_types::{Base58PublicKey, U128};
 use near_sdk::serde::{Deserialize, Serialize};
 use near_sdk::{
-    env, ext_contract, near_bindgen, AccountId, Balance, EpochHeight, Promise, PromiseResult,
-    PublicKey,
+    env, ext_contract, near_bindgen, AccountId, Balance, BlockHeight, EpochHeight, Promise,
+    PromiseResult, PublicKey,
 };
 use uint::construct_uint;
 
@@ -52,7 +52,9 @@ pub struct Account {
     pub stake_shares: NumStakeShares,
     /// The minimum epoch height when the withdrawn is allowed.
     /// This changes after unstaking action, because the amount is still locked for 3 epochs.
+    // TODO: replace
     pub unstaked_available_epoch_height: EpochHeight,
+    pub unstaked_available_block_height: BlockHeight,
 }
 
 /// Represents an account structure readable by humans.
@@ -74,6 +76,7 @@ impl Default for Account {
             unstaked: 0,
             stake_shares: 0,
             unstaked_available_epoch_height: 0,
+            unstaked_available_block_height: 0,
         }
     }
 }
@@ -83,6 +86,8 @@ impl Default for Account {
 /// when the unstaking promise can arrive at the next epoch, while the inner state is already
 /// updated in the previous epoch. It will not unlock the funds for 4 epochs.
 const NUM_EPOCHS_TO_UNLOCK: EpochHeight = 4;
+// TODO: change to proper value
+const NUM_BLOCKS_TO_UNLOCK: BlockHeight = 60;
 
 #[near_bindgen]
 #[derive(BorshDeserialize, BorshSerialize)]
@@ -374,7 +379,9 @@ impl StakingContract {
             staked_balance: self
                 .staked_amount_from_num_shares_rounded_down(account.stake_shares)
                 .into(),
-            can_withdraw: account.unstaked_available_epoch_height <= env::epoch_height(),
+            // TODO: rewrite this
+            // can_withdraw: account.unstaked_available_epoch_height <= env::epoch_height(),
+            can_withdraw: account.unstaked_available_block_height <= env::block_index(),
         }
     }
 
@@ -416,7 +423,7 @@ impl StakingContract {
         // If the stake action failed and the current locked amount is positive, then the contract
         // has to unstake.
         if !stake_action_succeeded && env::account_locked_balance() > 0 {
-            Promise::new(env::current_account_id()).stake(0, self.stake_public_key.clone());
+            // Promise::new(env::current_account_id()).stake(0, self.stake_public_key.clone());
         }
     }
 
@@ -467,7 +474,7 @@ impl StakingContract {
 
         self.internal_ping();
         self.paused = true;
-        Promise::new(env::current_account_id()).stake(0, self.stake_public_key.clone());
+        // Promise::new(env::current_account_id()).stake(0, self.stake_public_key.clone());
     }
 
     /// Owner's method.

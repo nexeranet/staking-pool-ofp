@@ -1,0 +1,12 @@
+/Users/oleh/code/staking-pool/target/debug/deps/secp256k1-31ddd7a2e049d691.rmeta: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/macros.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/constants.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ecdh.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ffi.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/key.rs
+
+/Users/oleh/code/staking-pool/target/debug/deps/libsecp256k1-31ddd7a2e049d691.rlib: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/macros.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/constants.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ecdh.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ffi.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/key.rs
+
+/Users/oleh/code/staking-pool/target/debug/deps/secp256k1-31ddd7a2e049d691.d: /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/lib.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/macros.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/constants.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ecdh.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ffi.rs /Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/key.rs
+
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/lib.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/macros.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/constants.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ecdh.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/ffi.rs:
+/Users/oleh/.cargo/registry/src/github.com-1ecc6299db9ec823/parity-secp256k1-0.7.0/src/key.rs:

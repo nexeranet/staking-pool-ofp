@@ -12,13 +12,13 @@ impl StakingContract {
         }
         // Stakes with the staking public key. If the public key is invalid the entire function
         // call will be rolled back.
-        Promise::new(env::current_account_id())
-            .stake(self.total_staked_balance, self.stake_public_key.clone())
-            .then(ext_self::on_stake_action(
-                &env::current_account_id(),
-                NO_DEPOSIT,
-                ON_STAKE_ACTION_GAS,
-            ));
+        // Promise::new(env::current_account_id())
+        //     .stake(self.total_staked_balance, self.stake_public_key.clone())
+        //     .then(ext_self::on_stake_action(
+        //         &env::current_account_id(),
+        //         NO_DEPOSIT,
+        //         ON_STAKE_ACTION_GAS,
+        //     ));
     }
 
     pub(crate) fn internal_deposit(&mut self) -> u128 {
@@ -49,7 +49,9 @@ impl StakingContract {
             "Not enough unstaked balance to withdraw"
         );
         assert!(
-            account.unstaked_available_epoch_height <= env::epoch_height(),
+            // account.unstaked_available_epoch_height <= env::epoch_height(),
+            // rename to unstaked_available_block_height
+            account.unstaked_available_block_height <= env::block_index(),
             "The unstaked balance is not yet available due to unstaking delay"
         );
         account.unstaked -= amount;
@@ -153,7 +155,9 @@ impl StakingContract {
 
         account.stake_shares -= num_shares;
         account.unstaked += receive_amount;
-        account.unstaked_available_epoch_height = env::epoch_height() + NUM_EPOCHS_TO_UNLOCK;
+
+        account.unstaked_available_block_height = env::block_index() + NUM_BLOCKS_TO_UNLOCK;
+        // account.unstaked_available_epoch_height = env::epoch_height() + NUM_EPOCHS_TO_UNLOCK;
         self.internal_save_account(&account_id, &account);
 
         // The amount tokens that will be unstaked from the total to guarantee the "stake" share

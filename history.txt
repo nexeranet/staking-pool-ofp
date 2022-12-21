@@ -1,0 +1,3 @@
+near create-account stake.nexeranetv2.testnet --masterAccount nexeranetv2.testnet --initialBalance 2
+near deploy --accountId stake.nexeranetv2.testnet --wasmFile ./res/staking_pool.wasm --initFunction new --initArgs '{"owner_id": "nexeranetv2.testnet", "stake_public_key": "ed25519:GvqCPp8jtwrAxTaZwhDiNYXVqCsTL4WTJHrM3d7akRaR", "reward_fee_fraction" :{"numerator": 10 , "denominator": 100}}'
+near deploy --accountId stake.nexeranetv2.testnet --wasmFile ./res/staking_pool.wasm --initFunction new --initArgs '{"owner_id": "nexeranetv2.testnet", "stake_public_key": "ed25519:GvqCPp8jtwrAxTaZwhDiNYXVqCsTL4WTJHrM3d7akRaR", "reward_fee_fraction" :{"numerator": 10 , "denominator": 100}}'
